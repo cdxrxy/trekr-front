@@ -1,0 +1,20 @@
+// Here you can add other styles
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .layout {
+    @apply container px-4 mx-auto;
+  }
+}
+
+.sider-logo {
+  height: 32px;
+  margin: 24px 32px 32px 16px;
+  color: #fff;
+}
+
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-calendar-date {
+  height: 9vh !important;
+}

@@ -1,0 +1,58 @@
+{
+  "name": "TREKR",
+  "version": "4.3.1",
+  "description": "Dispatching and routing software for the transportation industry.",
+  "homepage": ".",
+  "license": "MIT",
+  "author": "Daulet Dauitbek",
+  "scripts": {
+    "build": "vite build",
+    "changelog": "auto-changelog --starting-version 4.3.1 --commit-limit false --hide-credit",
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "vite",
+    "serve": "vite preview"
+  },
+  "config": {
+    "coreui_library_short_version": "4.2"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@reduxjs/toolkit": "^1.8.6",
+    "antd": "^4.23.5",
+    "axios": "^1.1.2",
+    "chart.js": "^3.9.1",
+    "classnames": "^2.3.2",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.4",
+    "multiselect-react-dropdown": "^2.0.25",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.2",
+    "redux": "4.2.0",
+    "simplebar-react": "^2.4.3",
+    "smartystreets-javascript-sdk": "^1.13.6",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^2.1.0",
+    "auto-changelog": "~2.4.0",
+    "autoprefixer": "^10.4.12",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.18",
+    "prettier": "2.7.1",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.8",
+    "vite-plugin-svgr": "^2.2.2",
+    "vite-tsconfig-paths": "^3.5.1",
+    "web-vitals": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  }
+}
