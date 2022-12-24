@@ -1,1 +1,1 @@
-export const BASE_URL = 'http://trekr-env.eba-hppjspvg.us-east-2.elasticbeanstalk.com'
+export const BASE_URL = 'https://trekr-app-api.onrender.com'
