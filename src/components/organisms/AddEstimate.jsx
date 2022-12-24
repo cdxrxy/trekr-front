@@ -71,8 +71,6 @@ const AddEstimate = ({ visible }) => {
       },
     }
     dispatch(addNewEstimate({ id, form: payload }))
-    navigate('/calendar')
-    window.location.reload()
   }
 
   return (

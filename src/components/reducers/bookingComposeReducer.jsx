@@ -50,9 +50,11 @@ export const addNewEstimate = createAsyncThunk('booking/create', async ({ id, fo
     const response = await axios.post(`${BASE_URL}/estimate/send/${id}`, form, {
       headers: authHeader(),
     })
-    thunkAPI.dispatch(
+    await thunkAPI.dispatch(
       addToast({ title: 'Success', type: 'success', body: 'Your Estimate executed successfully' }),
     )
+    window.location.href = 'http://127.0.0.1:3000/#/calendar'
+    setTimeout(() => window.location.reload(), 3000)
     return response.data
   } catch (error) {
     const message =
